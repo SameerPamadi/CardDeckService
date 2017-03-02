@@ -8,14 +8,15 @@ SpringBoot Project, built using Gradle
 *	SpringBoot runs on tomcat internally and no need to separately starting a server.
 
 
-## run application using built jar
+## option 1: build and run/boot application using Gradle
 *	from project folder run the application using
-	gradlew bootrun (for windows) or ./gradlew bootRun (from linux)
+	**gradlew bootrun** (for windows) or 
+	**./gradlew bootRun** (from linux)
 
-## directly run using the jar (alternative way)
+## option 2: directly run using the jar (simplest way)
 *	java -jar build/libs/gs-rest-service-0.1.0.jar
 
-## eclipse:
+## option 3: eclipse or other IDE.
 *	Import the project as 'Gradle Project'.
 *	Run src/main/java/cardGame/Application.java as 'Java Application'.
 
