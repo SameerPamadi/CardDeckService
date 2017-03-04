@@ -7,7 +7,7 @@ SpringBoot Project, built using Gradle
 *	download / clone this repo
 *	SpringBoot runs on tomcat internally and no need to separately starting a server.
 
-
+# How to access application ?
 ## option 1: build and run/boot application using Gradle
 *	from project folder run the application using
 	**gradlew bootrun** (for windows) or 
@@ -20,6 +20,10 @@ SpringBoot Project, built using Gradle
 *	Import the project as 'Gradle Project'.
 *	Run src/main/java/cardGame/Application.java as 'Java Application'.
 
+## option 4:
+*	Have uploaded to AWS Elastic Beanstalk (EB will take care of spinning up an instance with Java installed, assigning a security group etc).
+*	url of EB -> http://custom-env.fnv3uuraa4.us-east-1.elasticbeanstalk.com (replace http://localhost:8080 with this url)
+	ex: Get all the stored cards - http://custom-env.fnv3uuraa4.us-east-1.elasticbeanstalk.com/cards/decks
 
 
 # Details:

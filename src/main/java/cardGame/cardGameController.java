@@ -21,14 +21,6 @@ public class cardGameController {
 	@Autowired
 	private CardService cardService;
 
-//    private static final String template = "Hello, %s!";
-//    private final AtomicLong counter = new AtomicLong();
-
-//    @RequestMapping("/test")
-//    public Greeting test(@RequestParam(value="name", defaultValue="World") String name) {
-//        return new Greeting(counter.incrementAndGet(),
-//                            String.format(template, name));
-//    }
 
 	// retrieve all Cards - all named decks.
     @RequestMapping("/cards/decks")
