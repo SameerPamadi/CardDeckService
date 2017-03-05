@@ -20,7 +20,7 @@ SpringBoot Project, built using Gradle
 *	Import the project as 'Gradle Project'.
 *	Run src/main/java/cardGame/Application.java as 'Java Application'.
 
-## option 4:
+## option 4: AWS Cloud
 *	Have uploaded to AWS Elastic Beanstalk (EB will take care of spinning up an instance with Java installed, assigning a security group etc).
 *	url of EB -> http://custom-env.fnv3uuraa4.us-east-1.elasticbeanstalk.com (replace http://localhost:8080 with this url)
 	ex: Get all the stored cards - http://custom-env.fnv3uuraa4.us-east-1.elasticbeanstalk.com/cards/decks
